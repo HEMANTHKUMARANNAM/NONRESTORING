@@ -26,7 +26,7 @@ function generateTable() {
     }
 
     if (M.length > Q.length) {
-        let len = M.length - Q.length-1;
+        let len = M.length - Q.length;
         for (let i = 0; i < len; i++) {
             Q = "0" + Q;
         }
